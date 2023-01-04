@@ -44,7 +44,20 @@ drop2.addEventListener("click", () => {
 
 const menubtn=document.querySelector(".menubtn")
 const headerlist=document.querySelector(".header-list")
- menubtn.addEventListener("click",()=>{
-headerlist.classList.toggle("hidden")
+
+
+function mainlist(){
+    headerlist.classList.toggle("hidden")
+
+}
+mainlist()
+menubtn.addEventListener("click",mainlist)
+
+window.addEventListener("scroll",()=>{
+    if(window.screen.width>767){
+        headerlist.classList.remove("hidden")
+    }else{
+        headerlist.classList.add("hidden")
+    }
 
 })

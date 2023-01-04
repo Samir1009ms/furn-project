@@ -7,10 +7,13 @@ const footer=document.querySelector(".footer")
 // // refresh animation
 let time = 0;
 let interval = setInterval(function(){
+    // console.log("ss1")
+    
     time += 1;
-    if(time === 3){  
+    if(time === 3){ 
+
         clearInterval(interval);
-        // console.log("ss")
+        console.log("ss")
         header.classList.remove("hidden")
         animation.classList.add("hidden")
         main.classList.remove("hidden")
@@ -20,7 +23,6 @@ let interval = setInterval(function(){
         header.classList.add("hidden")
         main.classList.add("hidden")
         footer.classList.add("hidden")
-    // console.log("ss1")
     }
 },1000);
 
