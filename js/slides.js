@@ -45,7 +45,7 @@ function right() {
     })
 }
 rightBtn.addEventListener("click", right)
-setInterval(right, 2000)
+// setInterval(right, 2000)
 
 const tables = document.querySelectorAll(".tableSlides")
 const lBtn = document.querySelector(".tableLeftBtn")
