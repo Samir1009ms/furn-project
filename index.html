@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURN</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- style link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <i class="fa-solid fa-turn-up turn hidden" ></i>
+    <div class="animation">
+        <img src="./img/Vanilla-1s-286px.svg" alt="if-loading" class="animation-gif">
+    </div>
+    <header id="header" class="">
+        <section class="header">
+            <div class="header-container">
+                <div class="logo-content">
+                    <div class="logo">
+                        <div class="logo-text">
+                            <p class="header-text"> f u r n</p>
+                        </div>
+                    </div>
+                 
+                </div>
+                <i class="fa-solid fa-bars menubtn"></i>
+                <div class="header-list hidden">
+                    <ul class="list">
+                        <li class="list-down">home</li>
+                        <li class="list-down">product</li>
+                        <li class="list-down">about</li>
+                        <li class="list-down list-up">page
+                            <i class="fa-solid fa-angle-down down"></i>
+                            <ul class="list-up-pop hidden">
+                                <li><a href="" class="list-up-pop-down"> login</a></li>
+                                <li><a href="" class="list-up-pop-down">card</a></li>
+                                <li><a href="" class="list-up-pop-down">categories</a></li>
+                                <li><a href="" class="list-up-pop-down">checkout</a></li>
+                                <li><a href="" class="list-up-pop-down">product details</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-down list-up2">blog
+                            <i class="fa-solid fa-angle-down down"></i>
+                            <ul class="list-up2-pop2 hidden">
+                                <li><a href="" class="list-up-pop-down"> blog</li></a>
+                                <li><a href="" class="list-up-pop-down"> blog details</li></a>
+                                <li><a href="" class="list-up-pop-down"> elements</li></a>
+                            </ul>
+                        </li>
+                        <li class="list-down">contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-container2">
+                <div class="header-container2-search">
+                    <input type="search" name="search" class="search" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass searchicon"></i>
+                </div>
+                <div class="header-container2-account">
+                    <p class="header-container2-account-list"> <span class="login">login</span> / <span
+                            class="registerbtn">register</span></p>
+                    <i class="fa-solid fa-circle-user loginicon"></i>
+                </div>
+                <div class="header-container2-shop">
+                    <i class="fa-brands fa-shopify shopicon"></i>
+                </div>
+                <div class="button">
+                    <button id="buton" class="buton">
+                        <i class="fa-solid fa-moon ay dark"></i>
+                        <i class="fa-solid fa-sun ay light"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="sign hidden">
+            <div class="sign-login">
+                <i class="fa-solid fa-xmark end"></i>
+                <h2 class="sign-login-text">Login</h2>
+                <p class="sign-login-txt">Enter Login details to get access</p>
+                <label class="sign-login-sign">
+                    <p class="sign-login-sign-text">Username Or Email Address</p>
+                    <input type="text" name="" id="" class="sign-login-sign-input  acount"
+                        placeholder="Username/Email Address">
+                    <p class="sign-login-sign-text">Password</p>
+                    <input type="password" name="" id="" class="sign-login-sign-password acount"
+                        placeholder="Enter Password">
+                    <span class="sign-login-sign-label">
+                        <span class="sign-login-sign-label-chex"><input type="checkbox" name="" id=""
+                                class="sign-login-sign-label-chex-text">
+                            <p class="sign-login-sign-label-chex-txt">Keep Me Logged In</p>
+                        </span>
+                        <p class="sign-login-sign-label-link">Forgot Password?</p>
+                    </span>
+                </label>
+                <label for="" class="sign-login-son">
+                    <p class="sign-login-son-text">Don’t have an account? <span
+                            class="sign-login-son-text-link registerb">Sign
+                            Up</span> here</p>
+                    <button type="submit" class="sign-login-son-button">Login</button>
+                </label>
+            </div>
+        </section>
+        <section class="register hidden">
+            <div class="register-login">
+                <i class="fa-solid fa-xmark endR"></i>
+                <h2 class="register-login-text">Sign Up</h2>
+                <p class="register-login-txt">Create your account to get full accesss</p>
+                <label class="register-login-register">
+                    <p class="register-login-register-text">Full Name</p>
+                    <input type="text" name="" id="" class="register-login-register-input  acount"
+                        placeholder="Enter full name">
+                    <p class="register-login-register-text">Email Address</p>
+                    <input type="text" name="" id="" class="register-login-register-input  acount"
+                        placeholder="Enter email Address">
+                    <p class="register-login-register-text">Password</p>
+                    <input type="password" name="" id="" class="register-login-register-input  acount"
+                        placeholder="Enter password">
+                    <p class="register-login-register-text">Confirm Password</p>
+                    <input type="password" name="" id="" class="register-login-register-password acount"
+                        placeholder="Confirm Password">
+                </label>
+                <label for="" class="register-login-son">
+                    <p class="register-login-son-text">Don’t have an account? <span
+                            class="register-login-son-text-link signb">Sign</span> here</p>
+                    <button type="submit" class="register-login-son-button">Login</button>
+                </label>
+            </div>
+        </section>
+    </header>
+     <main class="main">
+        <section class="main-up">
+            <div class="back-color"></div>
+            <div class="main-up-img"> <img class="main-img" src="./img/jpg/bizden-haberler-1-AnaResim-21062020-052657-42270600.jpg" alt=""></div>
+            <div class="main-up-content">
+                <p class="main-up-content-sale">70% SALE OFF</p>
+                <p class="main-up-content-name">FURNITURE AT COST</p>
+                <p class="main-up-content-text">Suspendisse varius enim in eros. elementum tristique. Duis cursus, mi
+                    quis viverra ornare, eros dolor interdum nulla.</p>
+                <button class="main-up-content-button">DISCOVER MORE</button>
+            </div>
+        </section>
+        <section class="products">
+            <div class="products-text">
+                <p class="products-text-name">POPULAR PRODUCTS</p>
+                <p class="products-text-txt">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla.</p>
+            </div>
+            <div class="products-container">
+                <div class="products-container-up">
+                    <a href="" class="products-container-up-list">Sofa</a>
+                    <a href="" class="products-container-up-list">Table</a>
+                    <a href="" class="products-container-up-list">Chair</a>
+                    <a href="" class="products-container-up-list">Bed</a>
+                    <a href="" class="products-container-up-list">Lightning</a>
+                    <a href="" class="products-container-up-list">Decore</a>
+                </div>
+                <div class="products-container-hr"></div>
+                <div class="products-container-down">
+                    <i class="fa-solid fa-circle-chevron-left leftbtn"></i>
+                    <i class="fa-solid fa-circle-chevron-right rightbtn"></i>
+                    <div class="products-container-down-list pagelen">
+                        <img src="./img/product img/angelo-pantazis-N4wUsqIbMAM-unsplash.jpg" alt=""
+                            class="products-container-down-list-img">
+                        <p class="products-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="products-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="products-container-down-list pagelen">
+                        <img src="./img/product img/paul-weaver-nWidMEQsnAQ-unsplash.jpg" alt=""
+                            class="products-container-down-list-img">
+                        <p class="products-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="products-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="products-container-down-list pagelen">
+                        <img src="./img/product img/naomi-hebert-2dcYhvbHV-M-unsplash.jpg" alt=""
+                            class="products-container-down-list-img">
+                        <p class="products-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="products-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="products-container-down-list pagelen">
+                        <img src="./img/product img/virender-singh-hE0nmTffKtM-unsplash.jpg" alt=""
+                            class="products-container-down-list-img">
+                        <p class="products-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="products-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="products-container-down-list pagelen">
+                        <img src="./img/product img/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt=""
+                            class="products-container-down-list-img">
+                        <p class="products-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="products-container-down-list-sale">$367</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="firnuture">
+            <div class="firnuture-left">
+                <img class="firnuture-left-img" src="./img/product img/inside-weather-dbH_vy7vICE-unsplash.jpg" alt="">
+            </div>
+            <div class="firnuture-right">
+                <div class="firnuture-right-container">
+                    <p class="firnuture-right-container-text">BEST FURNITURE MANUFACTURER</p>
+                    <span class="firnuture-right-container-txt">Suspendisse varius enim in eros elementum tristique.
+                        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</span>
+                    <span class="firnuture-right-container-txt">Suspendisse varius enim in eros elementum tristique.
+                        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</span>
+                    <button class="firnuture-right-container-button firnuturBtn">Discover more</button>
+                </div>
+            </div>
+        </section>
+        <section class="tables">
+            <div class="tables-text">
+                <p class="tables-text-name">PRODUCTS YOU MAY LIKE</p>
+                <p class="tables-text-txt">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla.
+                </p>
+            </div>
+            <div class="tables-container">
+                <div class="tables-container-down">
+                    <i class="fa-solid fa-circle-chevron-left tableLeftBtn"></i>
+                    <i class="fa-solid fa-circle-chevron-right tableRightbtn"></i>
+                    <div class="tables-container-down-list tableSlides tabl1">
+                        <img src="./img/jpg/34627_thumbnail_rabie-madaci-4iwG8QD17AE-unsplash.jpg" alt=""
+                            class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="tables-container-down-list tableSlides tabl2">
+                        <img src="./img/jpg/arlex-kolcakli-sandalye-sandalye-tepehome-20951-81-O.jpg" alt=""
+                            class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="tables-container-down-list tableSlides tabl3">
+                        <img src="./img/jpg/indir.jpeg" alt="" class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="tables-container-down-list tableSlides tabl4">
+                        <img src="./img/jpg/mg-6036.webp" alt="" class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="tables-container-down-list tableSlides tabl5">
+                        <img src="./img/jpg/table1.webp" alt="" class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="tables-container-down-list tableSlides tabl6">
+                        <img src="./img/jpg/vincent-botta-390699-unsplash.jpg" alt=""
+                            class="tables-container-down-list-img">
+                        <p class="tables-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="tables-container-down-list-sale">$367</p>
+                    </div>
+                </div>
+                <button class="tables-container-button">DISCOVER MORE</button>
+            </div>
+        </section>
+        <section class="sosyal">
+            <div class="sosyal-left">
+                <i class="fa-brands fa-instagram icon"></i>
+                <p class="sosyal-left-text">GET INSPIRED WITH INSTAGRAM</p>
+                <span class="sosyal-left-txt">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla.</span>
+                <button class="sosyal-left-button">DISCOVER MORE</button>
+            </div>
+            <div class="sosyal-right">
+                <div class="sosyal-right-img"><img src="./img/jpg/divan1.webp" alt=""></div>
+                <div class="sosyal-right-img"><img src="./img/jpg/divan2.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="pick">
+            <div class="pick-text">
+                <p class="pick-text-name">TOP PICK</p>
+                <p class="pick-text-txt">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla.
+                </p>
+            </div>
+            <div class="pick-container">
+                <div class="pick-container-down">
+                    <i class="fa-solid fa-circle-chevron-left pickLeftBtn"></i>
+                    <i class="fa-solid fa-circle-chevron-right pickRightBtn"></i>
+                    <div class="pick-container-down-list Pickslides picktabl1">
+                        <img src="./img/jpg/product1.jpg" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="pick-container-down-list Pickslides picktabl2">
+                        <img src="./img/jpg/product2.jpg" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="pick-container-down-list Pickslides picktabl3">
+                        <img src="./img/jpg/product3.jpeg" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="pick-container-down-list Pickslides picktabl4">
+                        <img src="./img/jpg/product4.png" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="pick-container-down-list Pickslides picktabl5">
+                        <img src="./img/jpg/product5.png" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                    <div class="pick-container-down-list Pickslides picktabl6">
+                        <img src="./img/jpg/product6.png" alt="" class="pick-container-down-list-img">
+                        <p class="pick-container-down-list-text">Bly Microfiber / Microsuede 56" Armless Loveseat
+                        </p>
+                        <p class="pick-container-down-list-sale">$367</p>
+                    </div>
+                </div>
+                <button class="pick-container-button">DISCOVER MORE</button>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services-container">
+                <div class="services-container-up">
+                    <img class="services-container-up-img" src="./img/services1.svg" alt="">
+                    <p class="services-container-up-text">Fast & Free Delivery</p>
+                    <span class="services-container-up-txt">Free delivery on all orders</span>
+                </div>
+                <div class="services-container-up">
+                    <img class="services-container-up-img" src="./img/services2.svg" alt="">
+                    <p class="services-container-up-text">Secure Payment</p>
+                    <span class="services-container-up-txt">Free delivery on all orders</span>
+                </div>
+                <div class="services-container-up">
+                    <img class="services-container-up-img" src="./img/services3.svg" alt="">
+                    <p class="services-container-up-text">Money Back Guarantee</p>
+                    <span class="services-container-up-txt">Free delivery on all orders</span>
+                </div>
+                <div class="services-container-up">
+                    <img class="services-container-up-img" src="./img/services4.svg" alt="">
+                    <p class="services-container-up-text">Online Support</p>
+                    <span class="services-container-up-txt">Free delivery on all orders</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-container">
+            <div class="footer-container-up">
+                <div class="footer-container-up-left">
+                    <p class="footer-container-up-left-logo">F U R N</p>
+                    <p class="footer-container-up-left-text">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                    <p class="footer-container-up-left-icon">
+                        <i class="fa-brands fa-twitter iconn"></i>
+                        <i class="fa-brands fa-facebook-f iconn"></i>
+                        <i class="fa-brands fa-pinterest-p iconn"></i>
+                    </p>
+                </div>
+                <div class="footer-container-up-quick">
+                    <ul class="quick-list">
+                        <h4 class="quick-list-text">Quick links</h4>
+                        <li class="quick-list-txt"><a class="listtext" href="">Image Licensin</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Style Guide</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container-up-quick">
+                    <ul class="quick-list">
+                        <h4  class="quick-list-text">Shop Category</h4>
+                        <li class="quick-list-txt"><a class="listtext" href="">Image Licensin</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Style Guide</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container-up-quick">
+                    <u class="quick-list"l>
+                        <h4  class="quick-list-text">Pertners</h4>
+                        <li class="quick-list-txt"><a class="listtext" href="">Image Licensin</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Style Guide</a></li>
+                        <li class="quick-list-txt"><a class="listtext" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container-down">
+                <p class="footer-container-down-text">Copyright ©2023 All rights reserved | This template is made with<i class="fa-solid fa-heart"></i>  by <span class="footer-container-down-text-color">Colorlib</span></p>
+            </div>
+        </section>
+    </footer>
+   
+    <!-- icon link start -->
+    <script src="https://kit.fontawesome.com/081a8069c2.js" crossorigin="anonymous"></script>
+    <!-- icon link end -->
+    <!-- button link -->
+    <script src="./js/button.js"></script>
+    <!-- account link -->
+    <script src="./js/account.js"></script>
+    <!-- pages animation link -->
+    <script src="./js/pages-animation.js"></script>
+    <!-- pop-up link -->
+    <script src="./js/pop-up.js"></script>
+    <!-- slides link -->
+    <script src="./js/slides.js"></script>
+    <!-- scroll link -->
+    <script src="./js/scroll.js"></script>
+</body>
+
+</html>
